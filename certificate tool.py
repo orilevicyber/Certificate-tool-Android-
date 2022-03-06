@@ -29,7 +29,6 @@ try:
   data = line.rstrip()
  ipPort = data[0:19]
  ip = data[0:14]
- port = data[15:19]
  client = AdbClient(host="127.0.0.1", port=5037)
  client.remote_connect(ip, 5555)
  device = client.device(str(ipPort))
