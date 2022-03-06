@@ -12,7 +12,7 @@ try:
  print("Insert path Der")
  der = input()
  os.system("openssl x509 -inform der -in "+der+" -out mobile.pem")
- os.system("openssl x509 -inform PEM -subject_hash_old -in mobile.pem > mobile.der")
+ os.system("openssl x509 -inform PEM -subject_hash_old -in mobile.pem > mobile.txt")
 
  fd = open("mobile.txt","r")
  lines = fd.readlines()[0:1]
