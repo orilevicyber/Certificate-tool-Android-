@@ -5,7 +5,6 @@ import time
 
 print(pyfiglet.figlet_format("Certificate tool", font ="cybermedium"))
 
-
 try:
  os.system("adb devices > devices.txt")
 
@@ -40,6 +39,6 @@ try:
  response3 = device.shell('chmod 644 /system/etc/security/cacerts/9a5ba575.0')
  response4 = device.reboot()
 
-
 except:
   print("Connection Error")
+  
