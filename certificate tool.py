@@ -1,8 +1,10 @@
 import pyfiglet
 import os
 from ppadb.client import Client as AdbClient
+import time
 
 print(pyfiglet.figlet_format("Certificate tool", font ="cybermedium"))
+
 
 try:
  os.system("adb devices > devices.txt")
@@ -30,14 +32,13 @@ try:
  client = AdbClient(host="127.0.0.1", port=5037)
  client.remote_connect(ip, 5555)
  device = client.device(str(ipPort))
-
+ time.sleep(2)
  response1 = device.remount()
+ time.sleep(2)
  response2 = device.shell('mv /sdcard/9a5ba575.0 /system/etc/security/cacerts/')
- response3 = device.remount()
- response4 = device.remount()
- response5 = device.shell('chmod 644 /system/etc/security/cacerts/9a5ba575.0')
- response6 = device.shell('chmod 644 /system/etc/security/cacerts/9a5ba575.0')
- response7 = device.reboot()
+ time.sleep(2)
+ response3 = device.shell('chmod 644 /system/etc/security/cacerts/9a5ba575.0')
+ response4 = device.reboot()
 
 
 except:
