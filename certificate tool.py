@@ -2,9 +2,7 @@ import pyfiglet
 import os
 from ppadb.client import Client as AdbClient
 
-
 print(pyfiglet.figlet_format("Certificate tool", font ="cybermedium"))
-
 
 try:
  os.system("adb devices > devices.txt")
