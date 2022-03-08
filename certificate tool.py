@@ -8,8 +8,7 @@ import re
 print(pyfiglet.figlet_format("Certificate tool", font="cybermedium"))
 
 try:
- print("Insert path Der")
- der = input()
+ der = (input('Insert Path Der: '))
  os.system("openssl x509 -inform der -in " + der + " -out mobile.pem")
  os.system("openssl x509 -inform PEM -subject_hash_old -in mobile.pem > mobile.txt")
  os.system("adb devices > devices.txt")
@@ -41,6 +40,7 @@ try:
         time.sleep(2)
         response3 = device.shell('chmod 644 /system/etc/security/cacerts/9a5ba575.0')
         response4 = device.reboot()
+        print("Success")
 
 except:
-  print("An exception occurred")
+  print("Connection Error")
