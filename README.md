@@ -10,6 +10,6 @@ Usage
 ------------------------------------------------------
 Run the python code
 
-python CertificateTool.py <name der>
+python CertificateTool.py insert name der
 
 ![image](https://user-images.githubusercontent.com/101058837/156934040-14cf3f8b-55d3-4c58-a7db-67b41afc1644.png)
