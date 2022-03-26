@@ -22,6 +22,8 @@ python 3.10.2
 link download: https://www.python.org/downloads/release/python-3102/
 
 Install openssl and then insert it into environment variables
+C:\Program Files\OpenSSL-Win64\bin
+
 link download: https://slproweb.com/download/Win64OpenSSL-3_0_2.exe
 
 Installation on Windows:
