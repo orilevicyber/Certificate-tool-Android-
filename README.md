@@ -26,7 +26,10 @@ Install openssl and then insert it into environment variables
 link download: https://slproweb.com/download/Win64OpenSSL-3_0_1.exe
 
 Installation on Windows:
+
 pip install pure-python-adb
+
+
 pip install pyfiglet
 
 
