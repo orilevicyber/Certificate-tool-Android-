@@ -1,5 +1,6 @@
 # Certificate-tool-Android
 This tool is for uploading certificates quickly to burp suite on mobile
+
 You just need to have openSSL and the file der that was in the same folder
 
 genymotion support:
