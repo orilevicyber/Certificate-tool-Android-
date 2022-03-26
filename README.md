@@ -14,6 +14,7 @@ Requirements:
 
 Link Video: 
 https://www.youtube.com/watch?v=30FrWXM03ao
+
 The recommended version for Python 3 is 3.10.x
 
 
