@@ -1,7 +1,7 @@
 # Certificate-tool-Android
 This tool is for uploading certificates quickly to burp suite on mobile
 
-You just need to have openSSL and the file der that was in the same folder
+You just need to have file der that was in the same folder
 
 genymotion support:
 Android 4.4 , Android 5.0 , Android 6.0 , Android 7.0 , Android 8.0 , Android 9.0 , Android 10.0 
@@ -13,6 +13,7 @@ Requirements:
 ------------------------------------------------------
 
 The recommended version for Python 3 is 3.10.x
+
 
 python 3.10.2
 link download: https://www.python.org/downloads/release/python-3102/
