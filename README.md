@@ -4,19 +4,7 @@ You just need to have openSSL and the file der that was in the same folder
 
 genymotion support:
 
-Android 4.4 
-
-Android 5.0
-
-Android 6.0
-
-Android 7.0
-
-Android 8.0
-
-Android 9.0 
-
-Android 10.0 
+Android 4.4 , Android 5.0 , Android 6.0 , Android 7.0 , Android 8.0 , Android 9.0 , Android 10.0 
 
 Link Video:
 https://www.youtube.com/watch?v=_x8_2VBSU58
