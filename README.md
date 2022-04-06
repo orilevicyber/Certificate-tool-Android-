@@ -12,7 +12,8 @@ https://www.youtube.com/watch?v=_x8_2VBSU58
 Requirements:
 ------------------------------------------------------
 
-Link Video: 
+How to install at windows Link Video: 
+
 https://www.youtube.com/watch?v=30FrWXM03ao
 
 The recommended version for Python 3 is 3.10.x
@@ -30,6 +31,10 @@ link download: https://slproweb.com/download/Win64OpenSSL-3_0_2.exe
 Installation on Windows:
 
 pip install -r requirements.txt
+
+How to install at Linux Link Video: 
+
+https://www.youtube.com/watch?v=wDwG2FsEpmE
 
 Installation on Linux:
 
