@@ -32,7 +32,9 @@ Installation on Windows:
 pip install -r requirements.txt
 
 Installation on Linux:
+
 git clone https://github.com/orilevicyber/Certificate-tool-Android-.git
+
 pip install -r requirements.txt
 
 
