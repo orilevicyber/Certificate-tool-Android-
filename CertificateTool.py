@@ -5,7 +5,7 @@ import time
 import fileinput
 import re
 
-print(pyfiglet.figlet_format("Certificate tool", font="cybermedium"))
+print(pyfiglet.figlet_format("Certificate tool", font="standard"))
 
 try:
  der = (input('Insert Path Der: '))
