@@ -33,8 +33,7 @@ Installation on Windows:
 pip install -r requirements.txt
 
 How to install at Linux Link Video: 
-
-https://www.youtube.com/watch?v=wDwG2FsEpmE
+https://youtu.be/z_aTVYuNrEM
 
 Installation on Linux:
 
